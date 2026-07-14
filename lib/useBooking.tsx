@@ -32,6 +32,7 @@ export const sameDay = (a: Ymd | null, b: Ymd | null) =>
 export const cmp = (a: Ymd, b: Ymd) => Math.sign(time(a) - time(b));
 export const formatYmd = (d: Ymd | null) => (d ? `${d.d} ${MONTHS[d.m]} ${d.y}` : "");
 export const formatSlash = (d: Ymd | null) => (d ? `${d.m + 1}/${d.d}/${d.y}` : "");
+export const formatMoney = (currency: string, n: number) => `${currency}${n.toLocaleString("en-IN")}`;
 const nightsBetween = (a: Ymd, b: Ymd) => Math.max(0, Math.round((time(b) - time(a)) / 86_400_000));
 
 interface Ctx {
@@ -43,7 +44,6 @@ interface Ctx {
   price: PriceBreakdown | null;
   rangeLabel: string;
   guestLabel: string;
-  totalGuests: number;
   selectDay: (day: Ymd) => void;
   clearDates: () => void;
   setGuests: (next: Guests) => void;
@@ -111,7 +111,7 @@ export function BookingProvider({
   }, [totalGuests, guests.infants, guests.pets]);
 
   const value: Ctx = {
-    checkIn, checkOut, guests, config, nights, price, rangeLabel, guestLabel, totalGuests,
+    checkIn, checkOut, guests, config, nights, price, rangeLabel, guestLabel,
     selectDay, clearDates, setGuests,
   };
 

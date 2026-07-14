@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import type { NearbyStay } from "@/lib/types";
 import { Icon } from "../ui/Icon";
+import { HeartIcon } from "../ui/HeartIcon";
 
 function Card({ stay }: { stay: NearbyStay }) {
   const [saved, setSaved] = useState(false);
@@ -17,10 +18,7 @@ function Card({ stay }: { stay: NearbyStay }) {
           aria-pressed={saved}
           className="absolute right-3 top-3"
         >
-          <svg viewBox="0 0 32 32" width={24} height={24} aria-hidden="true"
-            style={{ fill: saved ? "#FF385C" : "rgba(0,0,0,0.5)", stroke: "#fff", strokeWidth: 2 }}>
-            <path d="M16 28c7.3-6.6 12-10.4 12-15.6C28 8.5 25.2 6 21.6 6c-2.3 0-4.2 1.2-5.6 3.2C14.6 7.2 12.7 6 10.4 6 6.8 6 4 8.5 4 12.4 4 17.6 8.7 21.4 16 28z" />
-          </svg>
+          <HeartIcon filled={saved} size={24} />
         </button>
       </div>
       <div className="mt-2.5">

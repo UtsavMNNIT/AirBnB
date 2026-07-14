@@ -24,7 +24,7 @@ export function Amenities({ listing }: { listing: Listing }) {
         {listing.amenitiesPreview.map((a) => (
           <li key={a.label} className="flex items-center gap-4 text-[15px] text-[#222]">
             <Icon name={a.icon as IconName} size={24} className="shrink-0 text-[#222]" />
-            <span className={a.crossedOut ? "line-through text-[#717171]" : ""}>{a.label}</span>
+            <span>{a.label}</span>
           </li>
         ))}
       </ul>

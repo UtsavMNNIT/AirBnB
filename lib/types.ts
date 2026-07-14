@@ -17,7 +17,6 @@ export interface PhotoGroup {
 export interface Amenity {
   label: string;
   icon: string;
-  crossedOut?: boolean;
 }
 
 export interface Highlight {
@@ -105,10 +104,6 @@ export interface Listing {
   coHosts: CoHost[];
   booking: {
     price: string;
-    period: string;
-    checkIn: string;
-    checkOut: string;
-    guests: string;
     freeCancellation: string;
     currency: string;
     nightlyRate: number;
@@ -117,7 +112,6 @@ export interface Listing {
     maxGuests: number;
     promo: { title: string; terms: string };
   };
-  stayNights: { title: string; range: string };
   location: { heading: string; proviso: string; highlightsShort: string; highlightsFull: string };
   thingsToKnow: ThingsToKnowColumn[];
   nearby: NearbyStay[];

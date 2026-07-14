@@ -9,7 +9,6 @@ interface Props {
   onClose: () => void;
   title?: string;
   children: React.ReactNode;
-  labelledBy?: string;
 }
 
 /** Centered accessible dialog with backdrop, focus trap, Esc-to-close. */

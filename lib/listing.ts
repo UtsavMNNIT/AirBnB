@@ -207,10 +207,6 @@ export const listing: Listing = {
 
   booking: {
     price: "₹28,499",
-    period: "for 5 nights",
-    checkIn: "10/18/2026",
-    checkOut: "10/23/2026",
-    guests: "2 guests",
     freeCancellation: "Free cancellation before 17 October",
     currency: "₹",
     // 4999 × 5 nights (24,995) + cleaning 1,500 + service 2,004 = 28,499 (matches headline).
@@ -220,8 +216,6 @@ export const listing: Listing = {
     maxGuests: 3,
     promo: { title: "Get 10% off your next stay.", terms: "Terms apply" },
   },
-
-  stayNights: { title: "5 nights in Candolim", range: "18 Oct 2026 – 23 Oct 2026" },
 
   location: {
     heading: "Candolim, Goa, India",

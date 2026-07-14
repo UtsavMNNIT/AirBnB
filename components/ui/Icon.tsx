@@ -3,17 +3,16 @@ import * as React from "react";
 type IconProps = React.SVGProps<SVGSVGElement> & { name: IconName; size?: number };
 
 export type IconName =
-  | "star" | "starSmall" | "share" | "heart" | "heartFill" | "grid"
+  | "starSmall" | "share" | "grid"
   | "chevronLeft" | "chevronRight" | "chevronDown" | "close" | "search"
-  | "globe" | "menu" | "plus" | "minus" | "superhost" | "translate"
+  | "globe" | "menu" | "plus" | "minus" | "translate"
   // highlights
   | "outdoor" | "cool" | "key"
   // amenities
   | "kitchen" | "wifi" | "workspace" | "parking" | "pool" | "tv" | "ac"
   | "camera" | "smoke" | "co"
   // rating categories
-  | "cleanliness" | "accuracy" | "checkin" | "communication" | "location" | "value"
-  | "bed" | "sofa";
+  | "cleanliness" | "accuracy" | "checkin" | "communication" | "location" | "value";
 
 const stroke = {
   fill: "none",
@@ -24,12 +23,9 @@ const stroke = {
 };
 
 const PATHS: Record<IconName, React.ReactNode> = {
-  star: <path d="M12 1.5l3.09 6.26 6.91 1-5 4.87 1.18 6.87L12 17.27l-6.18 3.25L7 13.63l-5-4.87 6.91-1L12 1.5z" fill="currentColor" stroke="none" />,
   starSmall: <path d="M8 1l2.06 4.17L14.66 5.8l-3.33 3.25.79 4.58L8 11.44 3.88 13.6l.79-4.58L1.34 5.8l4.6-.63L8 1z" fill="currentColor" stroke="none" />,
   share: <><path d="M27 18v9a1 1 0 01-1 1H6a1 1 0 01-1-1v-9" {...stroke} /><path d="M16 4v20M9 11l7-7 7 7" {...stroke} /></>,
-  heart: <path d="M16 28C16 28 4 21 4 12.5 4 8.36 7.36 5 11.5 5c2.5 0 4.5 1.5 4.5 1.5S18 5 20.5 5C24.64 5 28 8.36 28 12.5 28 21 16 28 16 28z" fill="rgba(0,0,0,0.5)" stroke="#fff" strokeWidth={2} />,
-  heartFill: <path d="M16 28C16 28 4 21 4 12.5 4 8.36 7.36 5 11.5 5c2.5 0 4.5 1.5 4.5 1.5S18 5 20.5 5C24.64 5 28 8.36 28 12.5 28 21 16 28 16 28z" fill="#FF385C" stroke="#FF385C" strokeWidth={2} />,
-  grid: <><rect x="3" y="3" width="8" height="8" rx="1.5" {...stroke} /><rect x="3" y="13" width="8" height="8" rx="1.5" {...stroke} /><rect x="13" y="3" width="8" height="8" rx="1.5" {...stroke} /><rect x="13" y="13" width="8" height="8" rx="1.5" {...stroke} /></>,
+  grid:<><rect x="3" y="3" width="8" height="8" rx="1.5" {...stroke} /><rect x="3" y="13" width="8" height="8" rx="1.5" {...stroke} /><rect x="13" y="3" width="8" height="8" rx="1.5" {...stroke} /><rect x="13" y="13" width="8" height="8" rx="1.5" {...stroke} /></>,
   chevronLeft: <path d="M15 4L7 12l8 8" {...stroke} />,
   chevronRight: <path d="M9 4l8 8-8 8" {...stroke} />,
   chevronDown: <path d="M4 8l6 6 6-6" {...stroke} />,
@@ -39,7 +35,6 @@ const PATHS: Record<IconName, React.ReactNode> = {
   menu: <><path d="M3 7h18M3 14h18" {...stroke} /></>,
   plus: <path d="M12 5v14M5 12h14" {...stroke} />,
   minus: <path d="M5 12h14" {...stroke} />,
-  superhost: <path d="M16 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6z" fill="currentColor" stroke="none" />,
   translate: <><path d="M4 6h10M9 4v2c0 5-3 8-6 9M6 9c0 3 3 5 6 6" {...stroke} /><path d="M14 20l4-9 4 9M15.5 17h5" {...stroke} /></>,
   outdoor: <><path d="M4 20h24M8 20V9l8-5 8 5v11" {...stroke} /><path d="M12 20v-6h8v6" {...stroke} /></>,
   cool: <><path d="M16 3v26M6 8l20 16M26 8L6 24" {...stroke} /><circle cx="16" cy="16" r="3" {...stroke} /></>,
@@ -60,13 +55,11 @@ const PATHS: Record<IconName, React.ReactNode> = {
   communication: <><path d="M4 6h18a2 2 0 012 2v10a2 2 0 01-2 2H12l-6 5v-5H4a0 0 0 010 0z" {...stroke} /></>,
   location: <><path d="M16 28s10-8 10-16A10 10 0 006 12c0 8 10 16 10 16z" {...stroke} /><circle cx="16" cy="12" r="3.5" {...stroke} /></>,
   value: <><path d="M6 6h9l11 11-9 9L6 15V6z" {...stroke} /><circle cx="11" cy="11" r="1.8" fill="currentColor" stroke="none" /></>,
-  bed: <><path d="M3 10v12M29 22V15a3 3 0 00-3-3H10v10M3 18h26" {...stroke} /></>,
-  sofa: <><path d="M6 15v-3a3 3 0 013-3h14a3 3 0 013 3v3M4 15a2 2 0 012 2v4h20v-4a2 2 0 014 0v5H4v-7z" {...stroke} /></>,
 };
 
 /** Airbnb-style inline SVG icon. Default 24px, uses currentColor. */
 export function Icon({ name, size = 24, ...rest }: IconProps) {
-  const vb = ["star", "starSmall", "chevronLeft", "chevronRight", "chevronDown", "close",
+  const vb = ["starSmall", "chevronLeft", "chevronRight", "chevronDown", "close",
     "search", "globe", "menu", "plus", "minus"].includes(name) ? "0 0 24 24" : "0 0 32 32";
   return (
     <svg viewBox={vb} width={size} height={size} aria-hidden="true" focusable="false"

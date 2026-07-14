@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { Listing } from "@/lib/types";
-import { useBooking } from "@/lib/useBooking";
+import { formatMoney, useBooking } from "@/lib/useBooking";
 import { Modal } from "../ui/Modal";
 
 /** Client-side reserve confirmation — summarises the booking, no real charge. */
@@ -12,7 +12,7 @@ export function ReserveConfirmation({
   const { price, rangeLabel, guestLabel } = useBooking();
   const [done, setDone] = useState(false);
   const cur = price?.currency ?? listing.booking.currency;
-  const money = (n: number) => `${cur}${n.toLocaleString("en-IN")}`;
+  const money = (n: number) => formatMoney(cur, n);
 
   // Reset the success state whenever the modal is reopened.
   useEffect(() => { if (open) setDone(false); }, [open]);

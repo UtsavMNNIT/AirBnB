@@ -73,13 +73,3 @@ export function useFocusTrap(
     };
   }, [active, onClose, ref]);
 }
-
-/** True when the user prefers reduced motion. */
-export function usePrefersReducedMotion() {
-  const ref = useRef(false);
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    ref.current = mq.matches;
-  }, []);
-  return ref;
-}

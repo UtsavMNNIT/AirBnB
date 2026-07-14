@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { Listing } from "@/lib/types";
-import { formatSlash, useBooking } from "@/lib/useBooking";
+import { formatMoney, formatSlash, useBooking } from "@/lib/useBooking";
 import { Icon } from "../ui/Icon";
 import { GuestsPopover } from "./GuestsPopover";
 import { ReserveConfirmation } from "./ReserveConfirmation";
@@ -29,8 +29,7 @@ export function BookingCard({ listing }: { listing: Listing }) {
     return () => document.removeEventListener("mousedown", onDown);
   }, [guestsOpen]);
 
-  const cur = config.currency;
-  const money = (n: number) => `${cur}${n.toLocaleString("en-IN")}`;
+  const money = (n: number) => formatMoney(config.currency, n);
   const headline = price ? money(price.total) : money(config.nightlyRate);
   const headlineSuffix = price ? `for ${nights} night${nights !== 1 ? "s" : ""}` : "night";
 

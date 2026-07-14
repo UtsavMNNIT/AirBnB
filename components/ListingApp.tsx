@@ -17,7 +17,7 @@ import { NearbyStays } from "./listing/NearbyStays";
 import { BookingCard } from "./listing/BookingCard";
 import { PhotoTour } from "./overlays/PhotoTour";
 import { Lightbox } from "./overlays/Lightbox";
-import { BookingProvider, useBooking } from "@/lib/useBooking";
+import { BookingProvider, formatMoney, useBooking } from "@/lib/useBooking";
 import { ReserveConfirmation } from "./listing/ReserveConfirmation";
 
 const Divider = () => <hr className="border-t border-[#EBEBEB] my-8" />;
@@ -129,10 +129,7 @@ function ListingBody({ listing }: { listing: Listing }) {
 function MobileBar({ listing }: { listing: Listing }) {
   const { price, rangeLabel, nights, config } = useBooking();
   const [confirm, setConfirm] = useState(false);
-  const cur = config.currency;
-  const headline = price
-    ? `${cur}${price.total.toLocaleString("en-IN")}`
-    : `${cur}${config.nightlyRate.toLocaleString("en-IN")}`;
+  const headline = formatMoney(config.currency, price ? price.total : config.nightlyRate);
   const sub = price ? `for ${nights} night${nights !== 1 ? "s" : ""}` : "night";
 
   return (

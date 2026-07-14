@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import type { Listing } from "@/lib/types";
 import { useFocusTrap, useScrollLock } from "@/lib/overlay";
 import { Icon } from "../ui/Icon";
+import { HeartIcon } from "../ui/HeartIcon";
 
 interface Props {
   open: boolean;
@@ -49,9 +50,7 @@ export function PhotoTour({ open, listing, onClose, onOpenPhoto }: Props) {
               <Icon name="share" size={15} />
             </button>
             <button aria-label="Save" className="flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold hover:bg-[#F7F7F7]">
-              <svg viewBox="0 0 32 32" width={15} height={15} aria-hidden="true" style={{ fill: "rgba(0,0,0,0.5)", stroke: "#222", strokeWidth: 2 }}>
-                <path d="M16 28c7.3-6.6 12-10.4 12-15.6C28 8.5 25.2 6 21.6 6c-2.3 0-4.2 1.2-5.6 3.2C14.6 7.2 12.7 6 10.4 6 6.8 6 4 8.5 4 12.4 4 17.6 8.7 21.4 16 28z" />
-              </svg>
+              <HeartIcon size={15} stroke="#222" />
             </button>
           </div>
         </div>
