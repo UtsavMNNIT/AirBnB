@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 - Airbnb",
+  title: "Amber Nights · Private Jacuzzi Hideaway in Candolim - Airbnb",
   description:
     "Entire serviced apartment in Candolim, India. Cozy 1BHK with a private jacuzzi, pool, high-speed WiFi and Smart TV. Guest favourite.",
 };

@@ -73,7 +73,7 @@ for (const room of ROOMS) {
 }
 
 export const listing: Listing = {
-  title: "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10",
+  title: "Amber Nights · Private Jacuzzi Hideaway in Candolim",
   subtitle: "Entire serviced apartment in Candolim, India",
   specs: "3 guests · 1 bedroom · 1 bed · 1 bathroom",
   rating: 4.95,
