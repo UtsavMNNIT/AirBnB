@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  * { margin: 0; box-sizing: border-box; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+  body { background: #fff; color: #222; padding: 44px 48px; width: 1360px; }
+  h1 { font-size: 30px; letter-spacing: -0.02em; }
+  .sub { color: #717171; margin-top: 6px; font-size: 15px; }
+  .legend { display:flex; gap:18px; margin: 18px 0 26px; flex-wrap: wrap; font-size: 13px; color:#444;}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .tier { border: 1px solid #EBEBEB; border-radius: 16px; padding: 16px 18px; margin-bottom: 16px; background: #fcfcfc; position: relative; }
+  .tier > .label { position:absolute; top:-10px; left:18px; background:#222; color:#fff; font-size:11px; font-weight:700; letter-spacing:.08em; padding:3px 10px; border-radius:20px; text-transform:uppercase;}
+  .row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+  .box { flex: 1 1 0; min-width: 150px; border-radius: 12px; padding: 12px 14px; border: 1px solid rgba(0,0,0,.08); }
+  .box h3 { font-size: 14.5px; }
+  .box p { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.35; }
+  .edge { background:#eef6ff; border-color:#cfe4ff; }
+  .app { background:#ffeef1; border-color:#ffd0d9; }
+  .svc { background:#f3effc; border-color:#e0d6f6; }
+  .data { background:#eefaf1; border-color:#cdeed6; }
+  .infra { background:#fff7e8; border-color:#ffe6b3; }
+  .flow { text-align:center; color:#FF385C; font-size:20px; margin: 2px 0; }
+  .foot { margin-top: 10px; font-size: 12.5px; color:#717171; }
+  .pill{display:inline-block;font-size:11px;background:#fff;border:1px solid #ddd;border-radius:20px;padding:2px 9px;margin:5px 5px 0 0;color:#444}
+</style>
+</head>
+<body>
+  <h1>Production architecture — vacation-rental marketplace</h1>
+  <div class="sub">Scaling strategy for frontend · backend · storage · search · deployment. This clone maps to the green “Listing” path; the rest is how it scales to Airbnb size.</div>
+
+  <div class="legend">
+    <span><i class="dot" style="background:#4aa3ff"></i>Edge / Frontend</span>
+    <span><i class="dot" style="background:#ff5c78"></i>App / SSR</span>
+    <span><i class="dot" style="background:#9b7ede"></i>Services</span>
+    <span><i class="dot" style="background:#43c46f"></i>Data</span>
+    <span><i class="dot" style="background:#ffbf47"></i>Platform</span>
+  </div>
+
+  <div class="tier"><span class="label">Clients</span>
+    <div class="row">
+      <div class="box edge"><h3>Web (Next.js)</h3><p>React 19 · this clone. Responsive 375→1440.</p></div>
+      <div class="box edge"><h3>iOS / Android</h3><p>Native apps sharing the same GraphQL/REST API.</p></div>
+      <div class="box edge"><h3>Partners / SEO bots</h3><p>Prerendered HTML, sitemaps, structured data.</p></div>
+    </div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">Edge &amp; delivery</span>
+    <div class="row">
+      <div class="box edge"><h3>CDN + WAF (Vercel Edge / CloudFront)</h3><p>Global POPs, TLS, DDoS/WAF, bot mgmt, static + ISR cache close to users.</p></div>
+      <div class="box edge"><h3>Image CDN</h3><p>On-the-fly resize, AVIF/WebP, responsive <code>srcset</code>, blur placeholders.</p></div>
+      <div class="box edge"><h3>Edge middleware</h3><p>Geo/locale routing, currency, A/B flags, auth token check.</p></div>
+    </div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">Frontend runtime</span>
+    <div class="row">
+      <div class="box app"><h3>Next.js App Router</h3><p>RSC + streaming SSR for the listing page; client islands for gallery/overlays.</p></div>
+      <div class="box app"><h3>ISR / caching</h3><p>Listing pages statically generated, revalidated on write; per-user data hydrated client-side.</p></div>
+      <div class="box app"><h3>BFF layer</h3><p>Route Handlers (this repo’s <code>/api/*</code>) aggregate services into view models.</p></div>
+    </div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">API gateway</span>
+    <div class="row">
+      <div class="box svc" style="flex:2"><h3>GraphQL / REST gateway + AuthN/Z</h3><p>Schema stitching, rate limiting, request auth (OAuth/JWT), persisted queries, load balancing to services.</p></div>
+    </div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">Domain services (autoscaled, stateless)</span>
+    <div class="row">
+      <div class="box svc"><h3>Listing</h3><p>Details, photos, amenities, availability calendar.</p></div>
+      <div class="box svc"><h3>Search &amp; Geo</h3><p>Query, filters, map bounds, ranking.</p></div>
+      <div class="box svc"><h3>Pricing</h3><p>Dynamic rates, fees, taxes, promotions.</p></div>
+      <div class="box svc"><h3>Booking</h3><p>Availability lock, reservations, payments.</p></div>
+      <div class="box svc"><h3>Reviews</h3><p>Ratings, category scores, moderation.</p></div>
+      <div class="box svc"><h3>Users &amp; Hosts</h3><p>Profiles, co-hosts, messaging.</p></div>
+    </div>
+    <div class="foot">Async backbone: <b>Kafka</b> event bus → indexing, notifications, analytics, ML feature pipelines (CQRS-style read models).</div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">Storage &amp; search</span>
+    <div class="row">
+      <div class="box data"><h3>PostgreSQL</h3><p>Listings, bookings, users. Primary + read replicas, partition/shard by region.</p></div>
+      <div class="box data"><h3>Redis</h3><p>Session, hot listing cache, availability locks, rate-limit counters.</p></div>
+      <div class="box data"><h3>Elasticsearch / OpenSearch</h3><p>Full-text + geo search, faceted filters; fed from Kafka.</p></div>
+      <div class="box data"><h3>Object storage (S3)</h3><p>Original photos; origin for the image CDN.</p></div>
+      <div class="box data"><h3>Warehouse / Lake</h3><p>Snowflake/BigQuery for analytics + ML training.</p></div>
+    </div>
+  </div>
+  <div class="flow">▼</div>
+
+  <div class="tier"><span class="label">Platform &amp; delivery</span>
+    <div class="row">
+      <div class="box infra"><h3>CI/CD</h3><p>Preview deploys per PR, canary + blue-green, automated visual + a11y checks (this repo’s Playwright suite).</p></div>
+      <div class="box infra"><h3>Orchestration</h3><p>Kubernetes / serverless, HPA autoscaling, multi-region active-active.</p></div>
+      <div class="box infra"><h3>Observability</h3><p>Tracing, metrics, logs, RUM/Core Web Vitals, error tracking, SLOs.</p></div>
+      <div class="box infra"><h3>Security &amp; secrets</h3><p>WAF, secrets manager, PCI scope isolation for payments.</p></div>
+    </div>
+  </div>
+
+  <div style="margin-top:14px">
+    <span class="pill">Scale reads with CDN + ISR + replicas + Redis</span>
+    <span class="pill">Scale writes with sharding + event-driven read models</span>
+    <span class="pill">Search isolated in Elasticsearch</span>
+    <span class="pill">Images offloaded to S3 + image CDN</span>
+    <span class="pill">Stateless services → horizontal autoscale</span>
+    <span class="pill">Multi-region for latency + failover</span>
+  </div>
+</body>
+</html>

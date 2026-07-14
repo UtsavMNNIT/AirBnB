@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Airbnb design tokens — extracted from the reference bundle.
+   Palette: #FF385C (rausch), #E61E4D (rausch-dark), #222222 (text),
+   #717171 (text-muted), #B0B0B0, #DDDDDD / #EBEBEB (borders),
+   #F7F7F7 (surface), #008489 (teal).
+--------------------------------------------------------------------------- */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-rausch: #ff385c;
+  --color-rausch-dark: #e61e4d;
+  --color-ink: #222222;
+  --color-muted: #717171;
+  --color-faint: #b0b0b0;
+  --color-line: #dddddd;
+  --color-line-soft: #ebebeb;
+  --color-surface: #f7f7f7;
+  --color-teal: #008489;
+
+  --radius-card: 12px;
+  --shadow-card: 0 6px 16px rgba(0, 0, 0, 0.12);
+  --shadow-btn: 0 1px 2px rgba(0, 0, 0, 0.18);
+  --shadow-float: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Page content max width matches Airbnb's ~1280px container. */
+.page-container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 80px;
+}
+@media (max-width: 1128px) {
+  .page-container { padding-inline: 40px; }
+}
+@media (max-width: 743px) {
+  .page-container { padding-inline: 24px; }
+}
+
+/* Airbnb's signature Reserve button gradient. */
+.btn-rausch {
+  background-image: linear-gradient(to right, #e61e4d 0%, #e31c5f 50%, #d70466 100%);
+}
+.btn-rausch:hover {
+  background-image: linear-gradient(to right, #d70466 0%, #bd1e59 50%, #bd1e59 100%);
+}
+
+/* Visible keyboard focus ring, hidden for mouse users. */
+:focus-visible {
+  outline: 2px solid #222222;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.no-focus-ring:focus-visible {
+  outline: none;
+}
+
+/* Underline-on-hover used by header/text links and Share/Save. */
+.link-underline:hover {
+  text-decoration: underline;
+}
+
+/* Hide scrollbars on horizontal chip/photo strips while keeping scroll. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

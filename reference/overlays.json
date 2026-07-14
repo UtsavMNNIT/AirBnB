@@ -1,0 +1,230 @@
+{
+  "phototour": {
+    "text": "Photo tour\nLiving room 1\nLiving room 2\nFull kitchen\nBedroom\nFull bathroom\nGym\nExterior\nPool\nAdditional photos\nLiving room 1\n\nSofa • Air conditioning • Ceiling fan • TV\n\nLiving room 2\n\nCeiling fan • Hot tub\n\nFull kitchen\n\nFreezer • Fridge • Blender • Cooker • Cooking basics • Kettle • Microwave • Toaster • Wine glasses • Coffee • Crockery and cutlery\n\nBedroom\n\nDouble bed • Air conditioning • Bed linen • Ceiling fan • Clothes storage • Cot • Hangers • Iron • Room-darkening blinds • Cleaning available during stay • Cleaning products • Long-term stays allowed • Private entrance • Wifi\n\nFull bathroom\n\nShower • Hair dryer • Hot water\n\nGym\n\nExercise equipment\n\nExterior\n\nOutdoor seating • Patio or balcony\n\nPool\n\nShared pool\n\nAdditional photos\n\nWashing machine",
+    "imgCount": 52,
+    "imgs": [
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-vZ6fKh2f.jpeg",
+        "alt": "Living room 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D6DP_NhK.jpeg",
+        "alt": "Living room 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D8YM_FVx.jpeg",
+        "alt": "Full kitchen"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CkhgeWg2.jpeg",
+        "alt": "Bedroom"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-BTSBvkUh.jpeg",
+        "alt": "Full bathroom"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D6r2l8r0.jpeg",
+        "alt": "Gym"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CRVx7Z8O.jpeg",
+        "alt": "Exterior"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-C41aCaFt.jpeg",
+        "alt": "Pool"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-DUHBHKZy.jpeg",
+        "alt": "Additional photos"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-vZ6fKh2f.jpeg",
+        "alt": "Living room 1 - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-U6Fh-z-t.jpeg",
+        "alt": "Living room 1 - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-EeCJMjww.jpeg",
+        "alt": "Living room 1 - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D6DP_NhK.jpeg",
+        "alt": "Living room 2 - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-kXn5mfy1.jpeg",
+        "alt": "Living room 2 - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-w40Q75OB.jpeg",
+        "alt": "Living room 2 - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CYKI6X5Y.jpeg",
+        "alt": "Living room 2 - 4"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/5-DmvTLEqJ.jpeg",
+        "alt": "Living room 2 - 5"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/6-AWYqGh7w.jpeg",
+        "alt": "Living room 2 - 6"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/7-Dcui_DLo.jpeg",
+        "alt": "Living room 2 - 7"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D8YM_FVx.jpeg",
+        "alt": "Full kitchen - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-cSyHIF8F.jpeg",
+        "alt": "Full kitchen - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CkhgeWg2.jpeg",
+        "alt": "Bedroom - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-BHyDnMEq.jpeg",
+        "alt": "Bedroom - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-C0q-WjWm.jpeg",
+        "alt": "Bedroom - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CkhgeWg2.jpeg",
+        "alt": "Bedroom - 4"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/5-YOk2EqKI.jpeg",
+        "alt": "Bedroom - 5"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/6-E6QcUWFq.jpeg",
+        "alt": "Bedroom - 6"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-BTSBvkUh.jpeg",
+        "alt": "Full bathroom - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D6r2l8r0.jpeg",
+        "alt": "Gym - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-IuQXiSu_.jpeg",
+        "alt": "Gym - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-D-KPV5Hp.jpeg",
+        "alt": "Gym - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-ucitmXAc.jpeg",
+        "alt": "Gym - 4"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/5-DRRWi9qk.jpeg",
+        "alt": "Gym - 5"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CRVx7Z8O.jpeg",
+        "alt": "Exterior - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-tHFzobJK.jpeg",
+        "alt": "Exterior - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-9VJPfXnE.jpeg",
+        "alt": "Exterior - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-DCdhFrS3.jpeg",
+        "alt": "Exterior - 4"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-DCdhFrS3.jpeg",
+        "alt": "Exterior - 5"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/6-BlizIqk1.jpeg",
+        "alt": "Exterior - 6"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-C41aCaFt.jpeg",
+        "alt": "Pool - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-lYSfaBAx.jpeg",
+        "alt": "Pool - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-C41aCaFt.jpeg",
+        "alt": "Pool - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-DUHBHKZy.jpeg",
+        "alt": "Additional photos - 1"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-BAge9HE_.jpeg",
+        "alt": "Additional photos - 2"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-CJel4pAq.jpeg",
+        "alt": "Additional photos - 3"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-CsC5-GzA.jpeg",
+        "alt": "Additional photos - 4"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/5-XsGO5HbS.jpeg",
+        "alt": "Additional photos - 5"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/6-D5Cbzl-g.jpeg",
+        "alt": "Additional photos - 6"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/7-CazFSrqK.jpeg",
+        "alt": "Additional photos - 7"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/8-C1HZJC3l.jpeg",
+        "alt": "Additional photos - 8"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/9-D76DjQ2I.jpeg",
+        "alt": "Additional photos - 9"
+      },
+      {
+        "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-U6Fh-z-t.jpeg",
+        "alt": "Additional photos - 10"
+      }
+    ],
+    "captions": [
+      "Living room 1",
+      "Living room 2",
+      "Full kitchen",
+      "Bedroom",
+      "Full bathroom",
+      "Gym",
+      "Exterior",
+      "Pool",
+      "Additional photos"
+    ]
+  },
+  "lightbox": {
+    "text": "Photo tour\nLiving room 1\nLiving room 2\nFull kitchen\nBedroom\nFull bathroom\nGym\nExterior\nPool\nAdditional photos\nLiving room 1\n\nSofa • Air conditioning • Ceiling fan • TV\n\nLiving room 2\n\nCeiling fan • Hot tub\n\nFull kitchen\n\nFreezer • Fridge • Blender • Cooker • Cooking basics • Kettle • Microwave • Toaster • Wine glasses • Coffee • Crockery and cutlery\n\nBedroom\n\nDouble bed • Air conditioning • Bed linen • Ceiling fan • Clothes storage • Cot • Hangers • Iron • Room-darkening blinds • Cleaning availa"
+  }
+}

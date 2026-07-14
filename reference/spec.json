@@ -1,0 +1,1319 @@
+{
+  "url": "https://airbnb-clone-playpower-nine.vercel.app/",
+  "capturedAt": null,
+  "viewports": {
+    "desktop": {
+      "size": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1024
+      },
+      "nodes": {
+        "h1": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "26px",
+          "font-weight": "600",
+          "line-height": "32px",
+          "letter-spacing": "-0.65px",
+          "color": "oklch(0.21 0.034 264.665)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "0px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.21 0.034 264.665)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "555.656px",
+          "height": "32px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 556,
+            "h": 32,
+            "x": 160,
+            "y": 114
+          }
+        },
+        "button": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "14px",
+          "font-weight": "600",
+          "line-height": "20px",
+          "letter-spacing": "normal",
+          "color": "oklch(0.278 0.033 256.848)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "8px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "10px",
+          "padding-right": "16px",
+          "padding-bottom": "10px",
+          "padding-left": "16px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "3.35544e+07px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.278 0.033 256.848)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "125.297px",
+          "height": "40px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 125,
+            "h": 40,
+            "x": 1103,
+            "y": 20
+          }
+        },
+        "img": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "12px 0px 0px 12px",
+          "border-top-width": "0px",
+          "border-color": "rgb(0, 0, 0)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "670.797px",
+          "height": "520px",
+          "max-width": "100%",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 671,
+            "h": 520,
+            "x": 160,
+            "y": 180
+          }
+        }
+      },
+      "buttons": [
+        "Become a host",
+        "Photos",
+        "Amenities",
+        "Reviews",
+        "Location",
+        "Reserve",
+        "Share",
+        "Save",
+        "Show all photos",
+        "Show original",
+        "Show more",
+        "Show all 50 amenities",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "Clear dates",
+        "Claim",
+        "Reserve",
+        "How reviews work",
+        "Show more",
+        "Show all 19 reviews",
+        "+",
+        "−",
+        "Show more",
+        "Message host",
+        "Learn more",
+        "Learn more",
+        "Learn more"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10"
+        },
+        {
+          "tag": "H2",
+          "text": "Entire serviced apartment in Candolim, India"
+        },
+        {
+          "tag": "H3",
+          "text": "Where you'll sleep"
+        },
+        {
+          "tag": "H3",
+          "text": "What this place offers"
+        },
+        {
+          "tag": "H3",
+          "text": "5 nights in Candolim"
+        },
+        {
+          "tag": "H3",
+          "text": "Guest favourite"
+        },
+        {
+          "tag": "H2",
+          "text": "Where you'll be"
+        },
+        {
+          "tag": "H3",
+          "text": "Candolim, Goa, India"
+        },
+        {
+          "tag": "H2",
+          "text": "Meet your host"
+        },
+        {
+          "tag": "H2",
+          "text": "Mirashya\nHomes"
+        },
+        {
+          "tag": "H3",
+          "text": "Co-Hosts"
+        },
+        {
+          "tag": "H3",
+          "text": "Host details"
+        },
+        {
+          "tag": "H2",
+          "text": "Things to know"
+        },
+        {
+          "tag": "H3",
+          "text": "Cancellation policy"
+        },
+        {
+          "tag": "H3",
+          "text": "House rules"
+        },
+        {
+          "tag": "H3",
+          "text": "Safety & property"
+        },
+        {
+          "tag": "H2",
+          "text": "More stays nearby"
+        }
+      ]
+    },
+    "laptop": {
+      "size": {
+        "name": "laptop",
+        "width": 1024,
+        "height": 900
+      },
+      "nodes": {
+        "h1": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "26px",
+          "font-weight": "600",
+          "line-height": "32px",
+          "letter-spacing": "-0.65px",
+          "color": "oklch(0.21 0.034 264.665)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "0px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.21 0.034 264.665)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "555.656px",
+          "height": "32px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 556,
+            "h": 32,
+            "x": 80,
+            "y": 114
+          }
+        },
+        "button": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "14px",
+          "font-weight": "600",
+          "line-height": "20px",
+          "letter-spacing": "normal",
+          "color": "oklch(0.278 0.033 256.848)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "8px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "10px",
+          "padding-right": "16px",
+          "padding-bottom": "10px",
+          "padding-left": "16px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "3.35544e+07px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.278 0.033 256.848)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "124.953px",
+          "height": "60px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 125,
+            "h": 60,
+            "x": 687,
+            "y": 10
+          }
+        },
+        "img": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "12px 0px 0px 12px",
+          "border-top-width": "0px",
+          "border-color": "rgb(0, 0, 0)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "517.188px",
+          "height": "520px",
+          "max-width": "100%",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 517,
+            "h": 520,
+            "x": 80,
+            "y": 180
+          }
+        }
+      },
+      "buttons": [
+        "Become a host",
+        "Photos",
+        "Amenities",
+        "Reviews",
+        "Location",
+        "Reserve",
+        "Share",
+        "Save",
+        "Show all photos",
+        "Show original",
+        "Show more",
+        "Show all 50 amenities",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "Clear dates",
+        "Claim",
+        "Reserve",
+        "How reviews work",
+        "Show more",
+        "Show all 19 reviews",
+        "+",
+        "−",
+        "Show more",
+        "Message host",
+        "Learn more",
+        "Learn more",
+        "Learn more"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10"
+        },
+        {
+          "tag": "H2",
+          "text": "Entire serviced apartment in Candolim, India"
+        },
+        {
+          "tag": "H3",
+          "text": "Where you'll sleep"
+        },
+        {
+          "tag": "H3",
+          "text": "What this place offers"
+        },
+        {
+          "tag": "H3",
+          "text": "5 nights in Candolim"
+        },
+        {
+          "tag": "H3",
+          "text": "Guest favourite"
+        },
+        {
+          "tag": "H2",
+          "text": "Where you'll be"
+        },
+        {
+          "tag": "H3",
+          "text": "Candolim, Goa, India"
+        },
+        {
+          "tag": "H2",
+          "text": "Meet your host"
+        },
+        {
+          "tag": "H2",
+          "text": "Mirashya\nHomes"
+        },
+        {
+          "tag": "H3",
+          "text": "Co-Hosts"
+        },
+        {
+          "tag": "H3",
+          "text": "Host details"
+        },
+        {
+          "tag": "H2",
+          "text": "Things to know"
+        },
+        {
+          "tag": "H3",
+          "text": "Cancellation policy"
+        },
+        {
+          "tag": "H3",
+          "text": "House rules"
+        },
+        {
+          "tag": "H3",
+          "text": "Safety & property"
+        },
+        {
+          "tag": "H2",
+          "text": "More stays nearby"
+        }
+      ]
+    },
+    "tablet": {
+      "size": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "nodes": {
+        "h1": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "26px",
+          "font-weight": "600",
+          "line-height": "32px",
+          "letter-spacing": "-0.65px",
+          "color": "oklch(0.21 0.034 264.665)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "0px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.21 0.034 264.665)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "517.047px",
+          "height": "64px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 517,
+            "h": 64,
+            "x": 40,
+            "y": 112
+          }
+        },
+        "button": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "14px",
+          "font-weight": "600",
+          "line-height": "20px",
+          "letter-spacing": "normal",
+          "color": "oklch(0.278 0.033 256.848)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "8px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "10px",
+          "padding-right": "16px",
+          "padding-bottom": "10px",
+          "padding-left": "16px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "3.35544e+07px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.278 0.033 256.848)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "82.6875px",
+          "height": "60px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 83,
+            "h": 60,
+            "x": 513,
+            "y": 10
+          }
+        },
+        "img": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "12px 0px 0px 12px",
+          "border-top-width": "0px",
+          "border-color": "rgb(0, 0, 0)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "411.594px",
+          "height": "520px",
+          "max-width": "100%",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 412,
+            "h": 520,
+            "x": 40,
+            "y": 208
+          }
+        }
+      },
+      "buttons": [
+        "Become a host",
+        "Photos",
+        "Amenities",
+        "Reviews",
+        "Location",
+        "Reserve",
+        "Share",
+        "Save",
+        "Show all photos",
+        "Show original",
+        "Show more",
+        "Show all 50 amenities",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "Clear dates",
+        "Claim",
+        "Reserve",
+        "How reviews work",
+        "Show more",
+        "Show all 19 reviews",
+        "+",
+        "−",
+        "Show more",
+        "Message host",
+        "Learn more",
+        "Learn more",
+        "Learn more"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10"
+        },
+        {
+          "tag": "H2",
+          "text": "Entire serviced apartment in Candolim, India"
+        },
+        {
+          "tag": "H3",
+          "text": "Where you'll sleep"
+        },
+        {
+          "tag": "H3",
+          "text": "What this place offers"
+        },
+        {
+          "tag": "H3",
+          "text": "5 nights in Candolim"
+        },
+        {
+          "tag": "H3",
+          "text": "Guest favourite"
+        },
+        {
+          "tag": "H2",
+          "text": "Where you'll be"
+        },
+        {
+          "tag": "H3",
+          "text": "Candolim, Goa, India"
+        },
+        {
+          "tag": "H2",
+          "text": "Meet your host"
+        },
+        {
+          "tag": "H2",
+          "text": "Mirashya\nHomes"
+        },
+        {
+          "tag": "H3",
+          "text": "Co-Hosts"
+        },
+        {
+          "tag": "H3",
+          "text": "Host details"
+        },
+        {
+          "tag": "H2",
+          "text": "Things to know"
+        },
+        {
+          "tag": "H3",
+          "text": "Cancellation policy"
+        },
+        {
+          "tag": "H3",
+          "text": "House rules"
+        },
+        {
+          "tag": "H3",
+          "text": "Safety & property"
+        },
+        {
+          "tag": "H2",
+          "text": "More stays nearby"
+        }
+      ]
+    },
+    "mobile": {
+      "size": {
+        "name": "mobile",
+        "width": 375,
+        "height": 812
+      },
+      "nodes": {
+        "h1": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "26px",
+          "font-weight": "600",
+          "line-height": "32px",
+          "letter-spacing": "-0.65px",
+          "color": "oklch(0.21 0.034 264.665)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "0px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.21 0.034 264.665)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "156.047px",
+          "height": "160px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 156,
+            "h": 160,
+            "x": 24,
+            "y": 112
+          }
+        },
+        "button": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "14px",
+          "font-weight": "600",
+          "line-height": "20px",
+          "letter-spacing": "normal",
+          "color": "oklch(0.278 0.033 256.848)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "8px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "10px",
+          "padding-right": "16px",
+          "padding-bottom": "10px",
+          "padding-left": "16px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "3.35544e+07px",
+          "border-top-width": "0px",
+          "border-color": "oklch(0.278 0.033 256.848)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "82.6875px",
+          "height": "60px",
+          "max-width": "none",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 83,
+            "h": 60,
+            "x": 377,
+            "y": 10
+          }
+        },
+        "img": {
+          "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "margin-top": "0px",
+          "margin-right": "0px",
+          "margin-bottom": "0px",
+          "margin-left": "0px",
+          "padding-top": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px",
+          "padding-left": "0px",
+          "gap": "normal",
+          "row-gap": "normal",
+          "column-gap": "normal",
+          "border-radius": "12px 0px 0px 12px",
+          "border-top-width": "0px",
+          "border-color": "rgb(0, 0, 0)",
+          "border-style": "solid",
+          "box-shadow": "none",
+          "width": "195px",
+          "height": "520px",
+          "max-width": "100%",
+          "display": "block",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "grid-template-columns": "none",
+          "rect": {
+            "w": 195,
+            "h": 520,
+            "x": 24,
+            "y": 304
+          }
+        }
+      },
+      "buttons": [
+        "Become a host",
+        "Photos",
+        "Amenities",
+        "Reviews",
+        "Location",
+        "Reserve",
+        "Share",
+        "Save",
+        "Show all photos",
+        "Show original",
+        "Show more",
+        "Show all 50 amenities",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "Clear dates",
+        "Claim",
+        "Reserve",
+        "How reviews work",
+        "Show more",
+        "Show all 19 reviews",
+        "+",
+        "−",
+        "Show more",
+        "Message host",
+        "Learn more",
+        "Learn more",
+        "Learn more"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10"
+        },
+        {
+          "tag": "H2",
+          "text": "Entire serviced apartment in Candolim, India"
+        },
+        {
+          "tag": "H3",
+          "text": "Where you'll sleep"
+        },
+        {
+          "tag": "H3",
+          "text": "What this place offers"
+        },
+        {
+          "tag": "H3",
+          "text": "5 nights in Candolim"
+        },
+        {
+          "tag": "H3",
+          "text": "Guest favourite"
+        },
+        {
+          "tag": "H2",
+          "text": "Where you'll be"
+        },
+        {
+          "tag": "H3",
+          "text": "Candolim, Goa, India"
+        },
+        {
+          "tag": "H2",
+          "text": "Meet your host"
+        },
+        {
+          "tag": "H2",
+          "text": "Mirashya\nHomes"
+        },
+        {
+          "tag": "H3",
+          "text": "Co-Hosts"
+        },
+        {
+          "tag": "H3",
+          "text": "Host details"
+        },
+        {
+          "tag": "H2",
+          "text": "Things to know"
+        },
+        {
+          "tag": "H3",
+          "text": "Cancellation policy"
+        },
+        {
+          "tag": "H3",
+          "text": "House rules"
+        },
+        {
+          "tag": "H3",
+          "text": "Safety & property"
+        },
+        {
+          "tag": "H2",
+          "text": "More stays nearby"
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CYKI6X5Y.jpeg",
+      "alt": "Spacious luxury apartment balcony terrace featuring contemporary outdoor wicker seating and a sunken hot tub jacuzzi, looking out towards the cityscape",
+      "w": 1440,
+      "h": 1080,
+      "localName": "photo-00.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-D6DP_NhK.jpeg",
+      "alt": "Comfortable outdoor rattan sofas and armchairs arranged around a glass coffee table under warm lighting",
+      "w": 1440,
+      "h": 1080,
+      "localName": "photo-01.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-kXn5mfy1.jpeg",
+      "alt": "Premium wooden decking surrounding a clean white hot tub jacuzzi set against a grey tiled wall",
+      "w": 1440,
+      "h": 1080,
+      "localName": "photo-02.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CkhgeWg2.jpeg",
+      "alt": "Modern villa bedroom featuring a cozy double bed with white linens, wooden floors, wardrobe, and a arched full-length mirror",
+      "w": 1440,
+      "h": 1080,
+      "localName": "photo-03.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-DCdhFrS3.jpeg",
+      "alt": "High-angle view of a modern multi-story apartment complex building structure under a sunny sky",
+      "w": 1440,
+      "h": 808,
+      "localName": "photo-04.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-vZ6fKh2f.jpeg",
+      "alt": "Living room",
+      "w": 1440,
+      "h": 1080,
+      "localName": "photo-05.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/laurel-left-tTZ2KVHg.png",
+      "alt": "laurel-left",
+      "w": 240,
+      "h": 365,
+      "localName": "photo-06.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/laurel-right-DyXflTCi.png",
+      "alt": "laurel-right",
+      "w": 240,
+      "h": 365,
+      "localName": "photo-07.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/2-AYS0TYCd.png",
+      "alt": "Aheesh",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-08.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/3-CyCtGR7l.png",
+      "alt": "Samiksha",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-09.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/5-DNuqZUwq.png",
+      "alt": "Vishvraj",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-10.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/1-CXfI5mAX.png",
+      "alt": "Sharath",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-11.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/4-pGXbVclf.png",
+      "alt": "Aman Dev Pahwa",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-12.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/6-B8kqILeZ.png",
+      "alt": "Maria Karen Priyanka",
+      "w": 1024,
+      "h": 1024,
+      "localName": "photo-13.png"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s1-BNZghcZ7.jpeg",
+      "alt": "Beautiful Studio with a view to die for",
+      "w": 720,
+      "h": 480,
+      "localName": "photo-14.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s2-BDBpwHIy.jpeg",
+      "alt": "NAQAB - 1bhk with private pool",
+      "w": 720,
+      "h": 480,
+      "localName": "photo-15.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s3-Dd5n_mRG.jpeg",
+      "alt": "Greentique Luxury Flat with plunge pool, Calangute",
+      "w": 720,
+      "h": 480,
+      "localName": "photo-16.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s4-NDZ1Kx4a.jpeg",
+      "alt": "The Tropical Studio | 5 mins to Beach",
+      "w": 720,
+      "h": 480,
+      "localName": "photo-17.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s5-BJ29KMSy.jpeg",
+      "alt": "Luxury Casa Bella 1BHK with plunge pool, Calangute",
+      "w": 720,
+      "h": 480,
+      "localName": "photo-18.jpeg"
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s2-BDBpwHIy.jpeg",
+      "alt": "NAQAB - 1bhk with private pool",
+      "w": 720,
+      "h": 480
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s3-Dd5n_mRG.jpeg",
+      "alt": "Greentique Luxury Flat with plunge pool, Calangute",
+      "w": 720,
+      "h": 480
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s4-NDZ1Kx4a.jpeg",
+      "alt": "The Tropical Studio | 5 mins to Beach",
+      "w": 720,
+      "h": 480
+    },
+    {
+      "src": "https://airbnb-clone-playpower-nine.vercel.app/assets/s5-BJ29KMSy.jpeg",
+      "alt": "Luxury Casa Bella 1BHK with plunge pool, Calangute",
+      "w": 720,
+      "h": 480
+    }
+  ],
+  "text": {
+    "desktop": "airbnb\nAnywhere\nAnytime\nAdd guests\nBecome a host\nPhotos\nAmenities\nReviews\nLocation\n₹28,499\nfor 5 nights\n4.95\n·\n19 reviews\nReserve\nRomantic Jacuzzi 1BHK Candolim | Mirashya UG10\nShare\nSave\nShow all photos\nEntire serviced apartment in Candolim, India\n\n3 guests · 1 bedroom · 1 bed · 1 bathroom\n\nGUEST\nFAVOURITE\n\nOne of the most loved homes on Airbnb, according to guests\n\n4.95\n19\nReviews\nMH\nHosted by Mirashya Homes\n2 years hosting\nOutdoor entertainment\n\nThe pool and alfresco dining are great for summer trips.\n\nDesigned for staying cool\n\nBeat the heat with the A/C and ceiling fan.\n\nSelf check-in\n\nYou can check in with the building staff.\n\nSome info has been automatically translated.Show original\n\n🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and st...\n\nShow more\nWhere you'll sleep\nBedroom\n\n1 double bed\n\nLiving room\n\n1 sofa\n\nWhat this place offers\nKitchen\nWifi\nDedicated workspace\nFree parking on premises\nPool\nTV\nAir conditioning\nExterior security cameras on property\nSmoke alarm\nCarbon monoxide alarm\nShow all 50 amenities\n5 nights in Candolim\n\n18 Oct 2026 – 23 Oct 2026\n\nOctober 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nNovember 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nClear dates\nGet 10% off your next stay.\nTerms apply\nClaim\n₹28,499for 5 nights\n4.95\n·\n19 reviews\nCHECK-IN\n10/18/2026\nCHECKOUT\n10/23/2026\nGUESTS\n2 guests\nFree cancellation before 17 October\nReserve\n\nYou won't be charged yet.\n\nReport this listing\n4.95\nGuest favourite\n\nThis home is a guest favourite based on ratings, reviews and reliability\n\nHow reviews work\nOverall rating\n5\n4\n3\n2\n1\nCleanliness\n5.0\nAccuracy\n5.0\nCheck-in\n5.0\nCommunication\n5.0\nLocation\n4.8\nValue\n4.8\n🛏\nComfort\n6\n🟢\nAccuracy\n5\n🛁\nHot tub\n5\n🛋\nCondition\n4\n🎁\nHospitality\n8\n🧼\nCleanliness\n4\n🏠\nAmenities\n2\nA\nAmit\n2 months on Airbnb\n·\n1 week ago\n\nVery helpful and responsive team. Safe and peaceful stay. Loved everything about the property.\n\nAheesh\n3 years on Airbnb\n·\n2 weeks ago\n\nWe had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.\n\nShow more\nSamiksha\n5 years on Airbnb\n·\n3 weeks ago\n\nLovely stay at this place. Extremely well located, clean, and has all the amenities you would need. The private pool is perfect for relaxing. Highly recommend!\n\nV\nVedant\n1 year on Airbnb\n·\n1 month ago\n\nGreat property and location. Very peaceful neighborhood. The check-in process was smooth. The property looked exactly like the photos.\n\nVishvraj\n4 years on Airbnb\n·\n1 month ago\n\nBeautiful place with great comfort. The pool was amazing. Cleanliness was exceptional. The host made sure we had everything we needed.\n\nM\nMohd\n2 years on Airbnb\n·\n2 months ago\n\nHighly recommended for families. Safe environment, close to the market and beaches, yet very quiet. The workspace was perfect for remote work.\n\nShow all 19 reviews\nWhere you'll be\nCandolim, Goa, India\n+\n−\nExact location will be provided after booking.\nNeighbourhood highlights\n\nLocated in the heart of Candolim, Amor de Goa offers a peaceful stay with easy access to beaches, cafés and popular attractions.\n\nThe neighbourhood is vibrant yet peaceful. Candolim beach is just a short walk away, offering water sports, shacks, and beautiful sunsets. You will find some of Goa's best restaurants, bars, and boutique stores within a 5-minute radius. Despite being close to the action, the property is situated in a quiet lane surrounded by lush greenery, giving you the best of both worlds.\n\nShow more\nMeet your host\nMIRASHYA\nHOMES\nMirashya\nHomes\nHost\n1,463\nReviews\n4.68\n★\nRating\n2\nYears hosting\nBorn in the 80s\nWhere I went to school: NICMAR GOA\nCo-Hosts\nSharath\nSimran\nS\nShruti\nAman Dev Pahwa\nPallavi\nA\nAmisha\nMaria Karen Priyanka\nSanyukta\nHost details\nResponse rate: 100%\nResponds within an hour\nMessage host\nTo help protect your payment, always use Airbnb to send money and communicate with hosts.\nThings to know\nCancellation policy\n\nFree cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.\n\nReview this host's full policy for details.\n\nLearn more\nHouse rules\n\nCheck-in after 2:00 pm\n\nCheckout before 11:00 am\n\n3 guests maximum\n\nLearn more\nSafety & property\n\nCarbon monoxide alarm not reported\n\nSmoke alarm not reported\n\nExterior security cameras on property\n\nLearn more\nMore stays nearby\n1 / 2\nBeautiful Studio with a view to die for\n₹23,600\n★\n4.91\nNAQAB - 1bhk with private pool\n₹42,218\n★\n4.95\nGreentique Luxury Flat with plunge pool, Calangute\n₹44,506\n★\n4.94\nThe Tropical Studio | 5 mins to Beach\n₹22,824\n★\n4.96\nLuxury Casa Bella 1BHK with plunge pool, Calangute\n₹39,942\n★\n4.95",
+    "laptop": "airbnb\nAnywhere\nAnytime\nAdd guests\nBecome a host\nPhotos\nAmenities\nReviews\nLocation\n₹28,499\nfor 5 nights\n4.95\n·\n19 reviews\nReserve\nRomantic Jacuzzi 1BHK Candolim | Mirashya UG10\nShare\nSave\nShow all photos\nEntire serviced apartment in Candolim, India\n\n3 guests · 1 bedroom · 1 bed · 1 bathroom\n\nGUEST\nFAVOURITE\n\nOne of the most loved homes on Airbnb, according to guests\n\n4.95\n19\nReviews\nMH\nHosted by Mirashya Homes\n2 years hosting\nOutdoor entertainment\n\nThe pool and alfresco dining are great for summer trips.\n\nDesigned for staying cool\n\nBeat the heat with the A/C and ceiling fan.\n\nSelf check-in\n\nYou can check in with the building staff.\n\nSome info has been automatically translated.Show original\n\n🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and st...\n\nShow more\nWhere you'll sleep\nBedroom\n\n1 double bed\n\nLiving room\n\n1 sofa\n\nWhat this place offers\nKitchen\nWifi\nDedicated workspace\nFree parking on premises\nPool\nTV\nAir conditioning\nExterior security cameras on property\nSmoke alarm\nCarbon monoxide alarm\nShow all 50 amenities\n5 nights in Candolim\n\n18 Oct 2026 – 23 Oct 2026\n\nOctober 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nNovember 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nClear dates\nGet 10% off your next stay.\nTerms apply\nClaim\n₹28,499for 5 nights\n4.95\n·\n19 reviews\nCHECK-IN\n10/18/2026\nCHECKOUT\n10/23/2026\nGUESTS\n2 guests\nFree cancellation before 17 October\nReserve\n\nYou won't be charged yet.\n\nReport this listing\n4.95\nGuest favourite\n\nThis home is a guest favourite based on ratings, reviews and reliability\n\nHow reviews work\nOverall rating\n5\n4\n3\n2\n1\nCleanliness\n5.0\nAccuracy\n5.0\nCheck-in\n5.0\nCommunication\n5.0\nLocation\n4.8\nValue\n4.8\n🛏\nComfort\n6\n🟢\nAccuracy\n5\n🛁\nHot tub\n5\n🛋\nCondition\n4\n🎁\nHospitality\n8\n🧼\nCleanliness\n4\n🏠\nAmenities\n2\nA\nAmit\n2 months on Airbnb\n·\n1 week ago\n\nVery helpful and responsive team. Safe and peaceful stay. Loved everything about the property.\n\nAheesh\n3 years on Airbnb\n·\n2 weeks ago\n\nWe had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.\n\nShow more\nSamiksha\n5 years on Airbnb\n·\n3 weeks ago\n\nLovely stay at this place. Extremely well located, clean, and has all the amenities you would need. The private pool is perfect for relaxing. Highly recommend!\n\nV\nVedant\n1 year on Airbnb\n·\n1 month ago\n\nGreat property and location. Very peaceful neighborhood. The check-in process was smooth. The property looked exactly like the photos.\n\nVishvraj\n4 years on Airbnb\n·\n1 month ago\n\nBeautiful place with great comfort. The pool was amazing. Cleanliness was exceptional. The host made sure we had everything we needed.\n\nM\nMohd\n2 years on Airbnb\n·\n2 months ago\n\nHighly recommended for families. Safe environment, close to the market and beaches, yet very quiet. The workspace was perfect for remote work.\n\nShow all 19 reviews\nWhere you'll be\nCandolim, Goa, India\n+\n−\nExact location will be provided after booking.\nNeighbourhood highlights\n\nLocated in the heart of Candolim, Amor de Goa offers a peaceful stay with easy access to beaches, cafés and popular attractions.\n\nThe neighbourhood is vibrant yet peaceful. Candolim beach is just a short walk away, offering water sports, shacks, and beautiful sunsets. You will find some of Goa's best restaurants, bars, and boutique stores within a 5-minute radius. Despite being close to the action, the property is situated in a quiet lane surrounded by lush greenery, giving you the best of both worlds.\n\nShow more\nMeet your host\nMIRASHYA\nHOMES\nMirashya\nHomes\nHost\n1,463\nReviews\n4.68\n★\nRating\n2\nYears hosting\nBorn in the 80s\nWhere I went to school: NICMAR GOA\nCo-Hosts\nSharath\nSimran\nS\nShruti\nAman Dev Pahwa\nPallavi\nA\nAmisha\nMaria Karen Priyanka\nSanyukta\nHost details\nResponse rate: 100%\nResponds within an hour\nMessage host\nTo help protect your payment, always use Airbnb to send money and communicate with hosts.\nThings to know\nCancellation policy\n\nFree cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.\n\nReview this host's full policy for details.\n\nLearn more\nHouse rules\n\nCheck-in after 2:00 pm\n\nCheckout before 11:00 am\n\n3 guests maximum\n\nLearn more\nSafety & property\n\nCarbon monoxide alarm not reported\n\nSmoke alarm not reported\n\nExterior security cameras on property\n\nLearn more\nMore stays nearby\n1 / 2\nBeautiful Studio with a view to die for\n₹23,600\n★\n4.91\nNAQAB - 1bhk with private pool\n₹42,218\n★\n4.95\nGreentique Luxury Flat with plunge pool, Calangute\n₹44,506\n★\n4.94\nThe Tropical Studio | 5 mins to Beach\n₹22,824\n★\n4.96\nLuxury Casa Bella 1BHK with plunge pool, Calangute\n₹39,942\n★\n4.95",
+    "tablet": "airbnb\nAnywhere\nAnytime\nAdd guests\nBecome a host\nPhotos\nAmenities\nReviews\nLocation\n₹28,499\nfor 5 nights\n4.95\n·\n19 reviews\nReserve\nRomantic Jacuzzi 1BHK Candolim | Mirashya UG10\nShare\nSave\nShow all photos\nEntire serviced apartment in Candolim, India\n\n3 guests · 1 bedroom · 1 bed · 1 bathroom\n\nGUEST\nFAVOURITE\n\nOne of the most loved homes on Airbnb, according to guests\n\n4.95\n19\nReviews\nMH\nHosted by Mirashya Homes\n2 years hosting\nOutdoor entertainment\n\nThe pool and alfresco dining are great for summer trips.\n\nDesigned for staying cool\n\nBeat the heat with the A/C and ceiling fan.\n\nSelf check-in\n\nYou can check in with the building staff.\n\nSome info has been automatically translated.Show original\n\n🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and st...\n\nShow more\nWhere you'll sleep\nBedroom\n\n1 double bed\n\nLiving room\n\n1 sofa\n\nWhat this place offers\nKitchen\nWifi\nDedicated workspace\nFree parking on premises\nPool\nTV\nAir conditioning\nExterior security cameras on property\nSmoke alarm\nCarbon monoxide alarm\nShow all 50 amenities\n5 nights in Candolim\n\n18 Oct 2026 – 23 Oct 2026\n\nOctober 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nNovember 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nClear dates\nGet 10% off your next stay.\nTerms apply\nClaim\n₹28,499for 5 nights\n4.95\n·\n19 reviews\nCHECK-IN\n10/18/2026\nCHECKOUT\n10/23/2026\nGUESTS\n2 guests\nFree cancellation before 17 October\nReserve\n\nYou won't be charged yet.\n\nReport this listing\n4.95\nGuest favourite\n\nThis home is a guest favourite based on ratings, reviews and reliability\n\nHow reviews work\nOverall rating\n5\n4\n3\n2\n1\nCleanliness\n5.0\nAccuracy\n5.0\nCheck-in\n5.0\nCommunication\n5.0\nLocation\n4.8\nValue\n4.8\n🛏\nComfort\n6\n🟢\nAccuracy\n5\n🛁\nHot tub\n5\n🛋\nCondition\n4\n🎁\nHospitality\n8\n🧼\nCleanliness\n4\n🏠\nAmenities\n2\nA\nAmit\n2 months on Airbnb\n·\n1 week ago\n\nVery helpful and responsive team. Safe and peaceful stay. Loved everything about the property.\n\nAheesh\n3 years on Airbnb\n·\n2 weeks ago\n\nWe had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.\n\nShow more\nSamiksha\n5 years on Airbnb\n·\n3 weeks ago\n\nLovely stay at this place. Extremely well located, clean, and has all the amenities you would need. The private pool is perfect for relaxing. Highly recommend!\n\nV\nVedant\n1 year on Airbnb\n·\n1 month ago\n\nGreat property and location. Very peaceful neighborhood. The check-in process was smooth. The property looked exactly like the photos.\n\nVishvraj\n4 years on Airbnb\n·\n1 month ago\n\nBeautiful place with great comfort. The pool was amazing. Cleanliness was exceptional. The host made sure we had everything we needed.\n\nM\nMohd\n2 years on Airbnb\n·\n2 months ago\n\nHighly recommended for families. Safe environment, close to the market and beaches, yet very quiet. The workspace was perfect for remote work.\n\nShow all 19 reviews\nWhere you'll be\nCandolim, Goa, India\n+\n−\nExact location will be provided after booking.\nNeighbourhood highlights\n\nLocated in the heart of Candolim, Amor de Goa offers a peaceful stay with easy access to beaches, cafés and popular attractions.\n\nThe neighbourhood is vibrant yet peaceful. Candolim beach is just a short walk away, offering water sports, shacks, and beautiful sunsets. You will find some of Goa's best restaurants, bars, and boutique stores within a 5-minute radius. Despite being close to the action, the property is situated in a quiet lane surrounded by lush greenery, giving you the best of both worlds.\n\nShow more\nMeet your host\nMIRASHYA\nHOMES\nMirashya\nHomes\nHost\n1,463\nReviews\n4.68\n★\nRating\n2\nYears hosting\nBorn in the 80s\nWhere I went to school: NICMAR GOA\nCo-Hosts\nSharath\nSimran\nS\nShruti\nAman Dev Pahwa\nPallavi\nA\nAmisha\nMaria Karen Priyanka\nSanyukta\nHost details\nResponse rate: 100%\nResponds within an hour\nMessage host\nTo help protect your payment, always use Airbnb to send money and communicate with hosts.\nThings to know\nCancellation policy\n\nFree cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.\n\nReview this host's full policy for details.\n\nLearn more\nHouse rules\n\nCheck-in after 2:00 pm\n\nCheckout before 11:00 am\n\n3 guests maximum\n\nLearn more\nSafety & property\n\nCarbon monoxide alarm not reported\n\nSmoke alarm not reported\n\nExterior security cameras on property\n\nLearn more\nMore stays nearby\n1 / 2\nBeautiful Studio with a view to die for\n₹23,600\n★\n4.91\nNAQAB - 1bhk with private pool\n₹42,218\n★\n4.95\nGreentique Luxury Flat with plunge pool, Calangute\n₹44,506\n★\n4.94\nThe Tropical Studio | 5 mins to Beach\n₹22,824\n★\n4.96\nLuxury Casa Bella 1BHK with plunge pool, Calangute\n₹39,942\n★\n4.95",
+    "mobile": "Anywhere\nAnytime\nAdd guests\nBecome a host\nPhotos\nAmenities\nReviews\nLocation\nReserve\nRomantic Jacuzzi 1BHK Candolim | Mirashya UG10\nShare\nSave\nShow all photos\nEntire serviced apartment in Candolim, India\n\n3 guests · 1 bedroom · 1 bed · 1 bathroom\n\nGUEST\nFAVOURITE\n\nOne of the most loved homes on Airbnb, according to guests\n\n4.95\n19\nReviews\nMH\nHosted by Mirashya Homes\n2 years hosting\nOutdoor entertainment\n\nThe pool and alfresco dining are great for summer trips.\n\nDesigned for staying cool\n\nBeat the heat with the A/C and ceiling fan.\n\nSelf check-in\n\nYou can check in with the building staff.\n\nSome info has been automatically translated.Show original\n\n🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and st...\n\nShow more\nWhere you'll sleep\nBedroom\n\n1 double bed\n\nLiving room\n\n1 sofa\n\nWhat this place offers\nKitchen\nWifi\nDedicated workspace\nFree parking on premises\nPool\nTV\nAir conditioning\nExterior security cameras on property\nSmoke alarm\nCarbon monoxide alarm\nShow all 50 amenities\n5 nights in Candolim\n\n18 Oct 2026 – 23 Oct 2026\n\nOctober 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nClear dates\nGet 10% off your next stay.\nTerms apply\nClaim\n₹28,499for 5 nights\n4.95\n·\n19 reviews\nCHECK-IN\n10/18/2026\nCHECKOUT\n10/23/2026\nGUESTS\n2 guests\nFree cancellation before 17 October\nReserve\n\nYou won't be charged yet.\n\nReport this listing\n4.95\nGuest favourite\n\nThis home is a guest favourite based on ratings, reviews and reliability\n\nHow reviews work\nOverall rating\n5\n4\n3\n2\n1\nCleanliness\n5.0\nAccuracy\n5.0\nCheck-in\n5.0\nCommunication\n5.0\nLocation\n4.8\nValue\n4.8\n🛏\nComfort\n6\n🟢\nAccuracy\n5\n🛁\nHot tub\n5\n🛋\nCondition\n4\n🎁\nHospitality\n8\n🧼\nCleanliness\n4\n🏠\nAmenities\n2\nA\nAmit\n2 months on Airbnb\n·\n1 week ago\n\nVery helpful and responsive team. Safe and peaceful stay. Loved everything about the property.\n\nAheesh\n3 years on Airbnb\n·\n2 weeks ago\n\nWe had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.\n\nShow more\nSamiksha\n5 years on Airbnb\n·\n3 weeks ago\n\nLovely stay at this place. Extremely well located, clean, and has all the amenities you would need. The private pool is perfect for relaxing. Highly recommend!\n\nV\nVedant\n1 year on Airbnb\n·\n1 month ago\n\nGreat property and location. Very peaceful neighborhood. The check-in process was smooth. The property looked exactly like the photos.\n\nVishvraj\n4 years on Airbnb\n·\n1 month ago\n\nBeautiful place with great comfort. The pool was amazing. Cleanliness was exceptional. The host made sure we had everything we needed.\n\nM\nMohd\n2 years on Airbnb\n·\n2 months ago\n\nHighly recommended for families. Safe environment, close to the market and beaches, yet very quiet. The workspace was perfect for remote work.\n\nShow all 19 reviews\nWhere you'll be\nCandolim, Goa, India\n+\n−\nExact location will be provided after booking.\nNeighbourhood highlights\n\nLocated in the heart of Candolim, Amor de Goa offers a peaceful stay with easy access to beaches, cafés and popular attractions.\n\nThe neighbourhood is vibrant yet peaceful. Candolim beach is just a short walk away, offering water sports, shacks, and beautiful sunsets. You will find some of Goa's best restaurants, bars, and boutique stores within a 5-minute radius. Despite being close to the action, the property is situated in a quiet lane surrounded by lush greenery, giving you the best of both worlds.\n\nShow more\nMeet your host\nMIRASHYA\nHOMES\nMirashya\nHomes\nHost\n1,463\nReviews\n4.68\n★\nRating\n2\nYears hosting\nBorn in the 80s\nWhere I went to school: NICMAR GOA\nCo-Hosts\nSharath\nSimran\nS\nShruti\nAman Dev Pahwa\nPallavi\nA\nAmisha\nMaria Karen Priyanka\nSanyukta\nHost details\nResponse rate: 100%\nResponds within an hour\nMessage host\nTo help protect your payment, always use Airbnb to send money and communicate with hosts.\nThings to know\nCancellation policy\n\nFree cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.\n\nReview this host's full policy for details.\n\nLearn more\nHouse rules\n\nCheck-in after 2:00 pm\n\nCheckout before 11:00 am\n\n3 guests maximum\n\nLearn more\nSafety & property\n\nCarbon monoxide alarm not reported\n\nSmoke alarm not reported\n\nExterior security cameras on property\n\nLearn more\nMore stays nearby\n1 / 2\nBeautiful Studio with a view to die for\n₹23,600\n★\n4.91\nNAQAB - 1bhk with private pool\n₹42,218\n★\n4.95\nGreentique Luxury Flat with plunge pool, Calangute\n₹44,506\n★\n4.94\nThe Tropical Studio | 5 mins to Beach\n₹22,824\n★\n4.96\nLuxury Casa Bella 1BHK with plunge pool, Calangute\n₹39,942\n★\n4.95"
+  }
+}

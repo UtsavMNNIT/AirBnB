@@ -1,0 +1,12 @@
+/node_modules
+/.next
+/out
+/build
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+.env*.local
+.vercel
+# keep reference/ screenshots but ignore the bulky duplicate download dir
+/reference/photos-all
+/reference/photos
