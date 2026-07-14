@@ -100,6 +100,8 @@ export const listing: Listing = {
     "🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and st…",
   descriptionFull:
     "🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and stylish interiors designed for a relaxed getaway.\n\nThe apartment comes with a fully equipped kitchen, a comfortable double bed, and a spacious living area that opens onto a private balcony. Guests also have access to a shared pool and a gym.\n\nLocated just minutes from Candolim beach, cafes and nightlife, this is the perfect base to explore North Goa while enjoying a peaceful, private retreat.",
+  descriptionOriginal:
+    "🌴 Planifiez vos vacances relaxantes à Amor De Goa par Mirashya Homes ! ✨ Séjournez dans ce 1BHK confortable au cœur de Candolim, avec un jacuzzi privé 🛁 pour une détente parfaite. Profitez du WiFi haut débit 💻, d'une Smart TV 📺, d'un confort pet-friendly 🐾 et d'intérieurs élégants conçus pour des vacances reposantes.\n\nL'appartement dispose d'une cuisine entièrement équipée, d'un lit double confortable et d'un salon spacieux ouvrant sur un balcon privé. Les hôtes ont également accès à une piscine partagée et à une salle de sport.",
 
   sleep: [
     { title: "Bedroom", detail: "1 double bed", image: `${P}/1-CkhgeWg2.jpeg` },
@@ -153,6 +155,32 @@ export const listing: Listing = {
       text: "Beautiful place with great comfort. The pool was amazing. Cleanliness was exceptional. The host made sure we had everything we needed." },
     { name: "Mohd", tenure: "2 years on Airbnb", when: "2 months ago", stars: 5,
       text: "Highly recommended for families. Safe environment, close to the market and beaches, yet very quiet. The workspace was perfect for remote work." },
+    { name: "Priya", tenure: "6 years on Airbnb", when: "2 months ago", stars: 5,
+      text: "Amazing property, exactly as pictured. The jacuzzi was the highlight of our trip. Spotless and very well maintained." },
+    { name: "Rohan", tenure: "3 years on Airbnb", when: "2 months ago", stars: 5,
+      text: "Perfect location, walking distance to the beach. The apartment is modern and comfortable. Would stay again." },
+    { name: "Neha", tenure: "1 year on Airbnb", when: "3 months ago", stars: 5,
+      text: "Lovely and cosy place. The host was super responsive and check-in was seamless. Highly recommend for couples." },
+    { name: "Karan", tenure: "4 years on Airbnb", when: "3 months ago", stars: 5,
+      text: "Great value for money. Clean, spacious and well located. The pool area is beautiful." },
+    { name: "Ananya", tenure: "2 years on Airbnb", when: "3 months ago", stars: 5,
+      text: "One of the best stays we've had in Goa. Everything was thoughtfully arranged. Loved the interiors." },
+    { name: "Ishaan", tenure: "5 years on Airbnb", when: "4 months ago", stars: 5,
+      text: "Fantastic host and a beautiful apartment. The AC and ceiling fans kept us cool throughout. Very peaceful." },
+    { name: "Sara", tenure: "1 year on Airbnb", when: "4 months ago", stars: 5,
+      text: "Clean, safe and quiet. Close to restaurants and the beach. The kitchen had everything we needed to cook." },
+    { name: "Deepak", tenure: "7 years on Airbnb", when: "4 months ago", stars: 5,
+      text: "Wonderful experience. The property is exactly as shown and the host went above and beyond. Recommended." },
+    { name: "Fatima", tenure: "2 years on Airbnb", when: "5 months ago", stars: 5,
+      text: "Really enjoyed our stay. Comfortable bed, great water pressure, and a relaxing balcony. Will return." },
+    { name: "Arjun", tenure: "3 years on Airbnb", when: "5 months ago", stars: 4,
+      text: "Great place overall. Slightly tricky to find the first time, but the host guided us well. Lovely stay." },
+    { name: "Meera", tenure: "6 years on Airbnb", when: "5 months ago", stars: 5,
+      text: "Beautiful apartment in a superb location. Very clean and the host was extremely helpful and friendly." },
+    { name: "Zoya", tenure: "1 year on Airbnb", when: "6 months ago", stars: 5,
+      text: "Everything was perfect. The gym and pool were a bonus. Highly recommend this place for a relaxed holiday." },
+    { name: "Aditya", tenure: "3 years on Airbnb", when: "6 months ago", stars: 5,
+      text: "Spacious, spotless and stylish. The location is unbeatable and the host was a pleasure to deal with. Five stars." },
   ],
 
   host: {
@@ -184,6 +212,12 @@ export const listing: Listing = {
     checkOut: "10/23/2026",
     guests: "2 guests",
     freeCancellation: "Free cancellation before 17 October",
+    currency: "₹",
+    // 4999 × 5 nights (24,995) + cleaning 1,500 + service 2,004 = 28,499 (matches headline).
+    nightlyRate: 4999,
+    cleaningFee: 1500,
+    serviceFee: 2004,
+    maxGuests: 3,
     promo: { title: "Get 10% off your next stay.", terms: "Terms apply" },
   },
 
@@ -199,9 +233,34 @@ export const listing: Listing = {
   },
 
   thingsToKnow: [
-    { title: "Cancellation policy", lines: ["Free cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.", "Review this host's full policy for details."] },
-    { title: "House rules", lines: ["Check-in after 2:00 pm", "Checkout before 11:00 am", "3 guests maximum"] },
-    { title: "Safety & property", lines: ["Carbon monoxide alarm not reported", "Smoke alarm not reported", "Exterior security cameras on property"] },
+    { title: "Cancellation policy",
+      lines: ["Free cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.", "Review this host's full policy for details."],
+      details: [
+        "Free cancellation before 3:00 pm on 17 October. After that, cancel before check-in on 18 October and get a full refund, minus the first night and the service fee.",
+        "Cancel after check-in and the first 24 hours are non-refundable; the remaining nights are refunded in full.",
+        "Reservations are subject to this host's cancellation policy, which may differ from Airbnb's standard policies.",
+      ] },
+    { title: "House rules",
+      lines: ["Check-in after 2:00 pm", "Checkout before 11:00 am", "3 guests maximum"],
+      details: [
+        "Check-in: after 2:00 pm",
+        "Checkout: before 11:00 am",
+        "3 guests maximum",
+        "No parties or events",
+        "No smoking",
+        "Pets allowed",
+        "Quiet hours between 10:00 pm and 8:00 am",
+      ] },
+    { title: "Safety & property",
+      lines: ["Carbon monoxide alarm not reported", "Smoke alarm not reported", "Exterior security cameras on property"],
+      details: [
+        "Carbon monoxide alarm not reported",
+        "Smoke alarm not reported",
+        "Exterior security cameras on property",
+        "Pool/hot tub without a gate or lock",
+        "Nearby lake, river, other body of water",
+        "Not suitable for children under 2",
+      ] },
   ],
 
   nearby: [

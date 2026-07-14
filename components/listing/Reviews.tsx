@@ -48,6 +48,7 @@ function ReviewCard({ r }: { r: Review }) {
 
 export function Reviews({ listing }: { listing: Listing }) {
   const [allOpen, setAllOpen] = useState(false);
+  const [howOpen, setHowOpen] = useState(false);
 
   return (
     <div>
@@ -64,6 +65,9 @@ export function Reviews({ listing }: { listing: Listing }) {
         <p className="mt-1 max-w-md text-[15px] text-[#717171]">
           This home is a guest favourite based on ratings, reviews and reliability
         </p>
+        <button onClick={() => setHowOpen(true)} className="mt-3 text-[13px] font-semibold text-[#222] underline">
+          How reviews work
+        </button>
       </div>
 
       {/* Breakdown */}
@@ -101,9 +105,9 @@ export function Reviews({ listing }: { listing: Listing }) {
         ))}
       </div>
 
-      {/* Review cards */}
+      {/* Review cards (preview) */}
       <div className="mt-8 grid grid-cols-1 gap-x-16 gap-y-8 md:grid-cols-2">
-        {listing.reviews.map((r) => (
+        {listing.reviews.slice(0, 6).map((r) => (
           <ReviewCard key={r.name} r={r} />
         ))}
       </div>
@@ -116,10 +120,18 @@ export function Reviews({ listing }: { listing: Listing }) {
       </button>
 
       <Modal open={allOpen} onClose={() => setAllOpen(false)} title={`${listing.rating.toFixed(2)} · ${listing.reviewCount} reviews`}>
-        <div className="space-y-8">
+        <div className="grid grid-cols-1 gap-x-12 gap-y-8 sm:grid-cols-2">
           {listing.reviews.map((r) => (
             <ReviewCard key={`m-${r.name}`} r={r} />
           ))}
+        </div>
+      </Modal>
+
+      <Modal open={howOpen} onClose={() => setHowOpen(false)} title="How reviews work">
+        <div className="space-y-4 text-[15px] leading-6 text-[#222]">
+          <p>Reviews from guests who have stayed help build trust. We show them in order of relevance, with the most helpful and recent reviews first.</p>
+          <p>The overall rating is the average of every review left after a completed stay, scored from 1 to 5 stars across cleanliness, accuracy, check-in, communication, location and value.</p>
+          <p><span className="font-semibold">Guest favourite</span> homes are the most-loved on Airbnb, based on ratings, reviews and reliability. Only reviews from real, verified stays count, and Airbnb removes any that violate its review policy.</p>
         </div>
       </Modal>
     </div>

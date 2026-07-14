@@ -71,15 +71,17 @@ export function Overview({ listing }: { listing: Listing }) {
           </button>
         </p>
         <p className="whitespace-pre-line text-[15px] leading-6 text-[#222]">
-          {expanded ? listing.descriptionFull : listing.descriptionShort}
+          {original ? listing.descriptionOriginal : expanded ? listing.descriptionFull : listing.descriptionShort}
         </p>
-        <button
-          onClick={() => setExpanded((e) => !e)}
-          className="mt-3 flex items-center gap-1 text-[15px] font-semibold text-[#222] underline"
-        >
-          {expanded ? "Show less" : "Show more"}
-          <Icon name="chevronRight" size={14} className={expanded ? "-rotate-90" : "rotate-90"} />
-        </button>
+        {!original && (
+          <button
+            onClick={() => setExpanded((e) => !e)}
+            className="mt-3 flex items-center gap-1 text-[15px] font-semibold text-[#222] underline"
+          >
+            {expanded ? "Show less" : "Show more"}
+            <Icon name="chevronRight" size={14} className={expanded ? "-rotate-90" : "rotate-90"} />
+          </button>
+        )}
       </div>
     </section>
   );

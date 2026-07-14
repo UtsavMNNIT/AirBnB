@@ -68,6 +68,7 @@ export interface NearbyStay {
 export interface ThingsToKnowColumn {
   title: string;
   lines: string[];
+  details: string[];
 }
 
 export interface Listing {
@@ -83,6 +84,7 @@ export interface Listing {
   highlights: Highlight[];
   descriptionShort: string;
   descriptionFull: string;
+  descriptionOriginal: string;
   sleep: SleepArea[];
   amenitiesPreview: Amenity[];
   amenitiesTotal: number;
@@ -108,6 +110,11 @@ export interface Listing {
     checkOut: string;
     guests: string;
     freeCancellation: string;
+    currency: string;
+    nightlyRate: number;
+    cleaningFee: number;
+    serviceFee: number;
+    maxGuests: number;
     promo: { title: string; terms: string };
   };
   stayNights: { title: string; range: string };

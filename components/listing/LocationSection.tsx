@@ -7,6 +7,9 @@ export function LocationSection({
   location,
 }: { location: { heading: string; proviso: string; highlightsShort: string; highlightsFull: string } }) {
   const [expanded, setExpanded] = useState(false);
+  const [zoom, setZoom] = useState(1);
+  const MIN = 1, MAX = 4;
+  const scale = 1 + (zoom - 1) * 0.6; // 1 → 2.8
   return (
     <section>
       <h2 className="text-[22px] font-semibold text-[#222]">Where you&apos;ll be</h2>
@@ -14,21 +17,37 @@ export function LocationSection({
 
       {/* Stylized map */}
       <div className="relative mt-6 h-[420px] w-full overflow-hidden rounded-xl border border-[#EBEBEB] bg-[#e7eee2]">
-        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg,#dfeadc 0%,#e9efe3 40%,#e3ece0 100%)" }} />
-        {/* water band */}
-        <div className="absolute -left-1/4 -top-1/3 h-[140%] w-[70%] rotate-[25deg] bg-[#a9d4e8]/70" />
-        {/* soft land blobs */}
-        <div className="absolute left-[30%] top-[35%] h-40 w-40 rounded-full bg-[#d3e6c8]/60 blur-2xl" />
-        <div className="absolute right-[20%] bottom-[20%] h-52 w-52 rounded-full bg-[#d3e6c8]/60 blur-2xl" />
-        {/* center pin */}
+        {/* Scaling layers (the pin stays anchored at true centre while land/water scale) */}
+        <div
+          className="absolute inset-0 origin-center transition-transform duration-300 ease-out"
+          style={{ transform: `scale(${scale})` }}
+        >
+          <div className="absolute inset-0" style={{ background: "linear-gradient(135deg,#dfeadc 0%,#e9efe3 40%,#e3ece0 100%)" }} />
+          {/* water band */}
+          <div className="absolute -left-1/4 -top-1/3 h-[140%] w-[70%] rotate-[25deg] bg-[#a9d4e8]/70" />
+          {/* soft land blobs */}
+          <div className="absolute left-[30%] top-[35%] h-40 w-40 rounded-full bg-[#d3e6c8]/60 blur-2xl" />
+          <div className="absolute right-[20%] bottom-[20%] h-52 w-52 rounded-full bg-[#d3e6c8]/60 blur-2xl" />
+        </div>
+        {/* center pin (not scaled) */}
         <div className="absolute left-1/2 top-1/2 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#222] text-white shadow-lg">
           <Icon name="outdoor" size={26} />
         </div>
         {/* zoom controls */}
         <div className="absolute right-4 top-4 flex flex-col overflow-hidden rounded-lg border border-[#DDDDDD] bg-white shadow">
-          <button aria-label="Zoom in" className="flex h-10 w-10 items-center justify-center hover:bg-[#F7F7F7]"><Icon name="plus" size={16} /></button>
+          <button
+            onClick={() => setZoom((z) => Math.min(MAX, z + 1))}
+            disabled={zoom >= MAX}
+            aria-label="Zoom in"
+            className="flex h-10 w-10 items-center justify-center hover:bg-[#F7F7F7] disabled:opacity-30 disabled:cursor-not-allowed"
+          ><Icon name="plus" size={16} /></button>
           <span className="h-px bg-[#DDDDDD]" />
-          <button aria-label="Zoom out" className="flex h-10 w-10 items-center justify-center hover:bg-[#F7F7F7]"><Icon name="minus" size={16} /></button>
+          <button
+            onClick={() => setZoom((z) => Math.max(MIN, z - 1))}
+            disabled={zoom <= MIN}
+            aria-label="Zoom out"
+            className="flex h-10 w-10 items-center justify-center hover:bg-[#F7F7F7] disabled:opacity-30 disabled:cursor-not-allowed"
+          ><Icon name="minus" size={16} /></button>
         </div>
       </div>
 

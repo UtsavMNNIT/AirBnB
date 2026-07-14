@@ -1,9 +1,14 @@
+"use client";
+
+import { useState } from "react";
 import type { Listing } from "@/lib/types";
 import { Icon } from "../ui/Icon";
 import { Avatar } from "../ui/Avatar";
+import { MessageHostModal } from "./MessageHostModal";
 
 export function HostCard({ listing }: { listing: Listing }) {
   const h = listing.host;
+  const [msgOpen, setMsgOpen] = useState(false);
   return (
     <section>
       <h2 className="text-[22px] font-semibold text-[#222]">Meet your host</h2>
@@ -63,9 +68,10 @@ export function HostCard({ listing }: { listing: Listing }) {
           <p className="mt-2 text-[15px] text-[#222]">{h.responseRate}</p>
           <p className="text-[15px] text-[#222]">{h.responseTime}</p>
 
-          <button className="mt-6 rounded-lg bg-[#222] px-6 py-3 text-[15px] font-semibold text-white hover:bg-black active:scale-[0.99] transition">
+          <button onClick={() => setMsgOpen(true)} className="mt-6 rounded-lg bg-[#222] px-6 py-3 text-[15px] font-semibold text-white hover:bg-black active:scale-[0.99] transition">
             Message host
           </button>
+          <MessageHostModal open={msgOpen} onClose={() => setMsgOpen(false)} hostName={h.name} />
 
           <p className="mt-6 flex items-start gap-2 text-[13px] text-[#717171]">
             <span aria-hidden="true">🛡️</span>

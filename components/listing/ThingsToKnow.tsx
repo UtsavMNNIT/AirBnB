@@ -1,7 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import type { ThingsToKnowColumn } from "@/lib/types";
 import { Icon } from "../ui/Icon";
+import { Modal } from "../ui/Modal";
 
 export function ThingsToKnow({ columns }: { columns: ThingsToKnowColumn[] }) {
+  const [openCol, setOpenCol] = useState<ThingsToKnowColumn | null>(null);
+
   return (
     <section>
       <h2 className="text-[22px] font-semibold text-[#222]">Things to know</h2>
@@ -14,13 +20,26 @@ export function ThingsToKnow({ columns }: { columns: ThingsToKnowColumn[] }) {
                 <p key={i} className="text-[14px] leading-5 text-[#222]">{line}</p>
               ))}
             </div>
-            <button className="mt-4 flex items-center gap-1 text-[14px] font-semibold text-[#222] underline">
+            <button
+              onClick={() => setOpenCol(col)}
+              className="mt-4 flex items-center gap-1 text-[14px] font-semibold text-[#222] underline"
+            >
               Learn more
               <Icon name="chevronRight" size={13} />
             </button>
           </div>
         ))}
       </div>
+
+      <Modal open={openCol !== null} onClose={() => setOpenCol(null)} title={openCol?.title}>
+        <ul className="space-y-4">
+          {openCol?.details.map((d, i) => (
+            <li key={i} className="border-b border-[#EBEBEB] pb-4 text-[15px] leading-6 text-[#222] last:border-0">
+              {d}
+            </li>
+          ))}
+        </ul>
+      </Modal>
     </section>
   );
 }
